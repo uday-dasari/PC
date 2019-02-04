@@ -9,6 +9,8 @@ int main()
 	printf("Enter year\n");
 	scanf("%d",&y);
 
+	//checking for leap year.
+	//If it is a leap year, make the number of days in February = 29
 	days[1]=(y%4==0)?((y%100==0)?((y%400==0)?29:28):29):28;
 
 
