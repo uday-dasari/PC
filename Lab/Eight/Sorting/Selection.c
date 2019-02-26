@@ -14,7 +14,7 @@ int main()
 		scanf("%d",&a[i]);
 	}
 
-	printf("\nOriginal Arrays:\n");
+	printf("\nOriginal Array:\n");
 	for(i=0;i<N;i++)
 		printf("%d,",a[i]);
 
