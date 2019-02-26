@@ -1,47 +1,39 @@
 #include <stdio.h>
 
 int main()
+{
+    int m, n, c, i, j;
 
-{		int m,n,c,i,j;
 
-	
+    printf("Enter the range\n");
+    scanf("%d%d", &m, &n);
 
-	printf("Enter the range\n");
 
-	scanf("%d%d",&m,&n);
+    printf("\nPrime numbers:\n");
 
-	m=(m<1)?1:m;
+    for (i = m + 1; i < n; i++)
+    {
 
-	
+        c = 0;
 
-	printf("\nPrime numbers:\n");
+        for (j = 1; j <= i; j++)
+        {
 
-	for(i=m+1;i<n;i++)
+            if (i % j == 0)
 
-	{
+                c++;
 
-		c=0;
+        }
 
-		for(j=1;j<=i;j++)
+        if (c == 2)
 
-		{
+            printf("%d,", i);
 
-			if(i%j==0)
+    }
 
-				c++;
 
-		}
+    printf("\n");
 
-		if(c==2)
-
-		printf("%d,",i);
-
-	}
-
-	
-
-	printf("\n");
-
-	return 0;
+    return 0;
 
 }
