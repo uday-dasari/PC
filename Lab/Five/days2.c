@@ -1,55 +1,63 @@
 #include <stdio.h>
 
-int main()
+int main() {
 
-{
+    int m, y, days = 0;
 
-	int m,y,days=0;	
+    printf("Enter month number and year\n");
 
-	printf("Enter month number and year\n");
+    scanf("%d%d", &m, &y);
 
-	scanf("%d%d",&m,&y);
+    switch (m) {
 
-	switch(m)
+        case 12:
+            days += 31;
 
-	{
+        case 11:
+            days += 30;
 
-		case 12: days+=31;
+        case 10:
+            days += 31;
 
-		case 11: days+=30;
+        case 9:
+            days += 30;
 
-		case 10: days+=31;
+        case 8:
+            days += 31;
 
-		case 9: days+=30;
+        case 7:
+            days += 31;
 
-		case 8: days+=31;
+        case 6:
+            days += 30;
 
-		case 7: days+=31;
+        case 5:
+            days += 31;
 
-		case 6: days+=30;
+        case 4:
+            days += 30;
 
-		case 5: days+=31;
+        case 3:
+            days += 31;
 
-		case 4: days+=30;
+        case 2:
+            days += (y % 4 == 0) ? ((y % 100 == 0) ? ((y % 400 == 0) ? 29 : 28) : 29) : 28;
 
-		case 3: days+=31;
+        case 1:
+            days += 31;
 
-		case 2: days+=(y%4==0)?((y%100==0)?((y%400==0)?29:28):29):28;
+            break;
 
-		case 1: days+=31;
+        default:
+            days = -1;
 
-			break;
+            printf("Invalid Input\n");
 
-		default: days=-1;
+    }
 
-		printf("Invalid Input\n");
 
-	}
+    printf("Days = %d\n", days);
 
-	
-
-	printf("Days = %d\n",days);
-
-	return 0;
+    return 0;
 
 }
