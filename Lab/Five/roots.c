@@ -1,3 +1,4 @@
+//taken from https://codeforwin.org/2016/04/c-program-to-find-all-roots-of-quadratic-equation-using-switch.html
 #include <stdio.h>
 #include <math.h>
 int main()
