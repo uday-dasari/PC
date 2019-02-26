@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
     int m, y, days = 0;
 
@@ -8,7 +9,8 @@ int main() {
 
     scanf("%d%d", &m, &y);
 
-    switch (m) {
+    switch (m)
+    {
 
         case 12:
             days += 31;
