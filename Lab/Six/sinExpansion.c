@@ -1,4 +1,4 @@
-//created by akashbhalotia
+//taken from https://www.codingconnect.net/c-program-sine-series/
 #include <stdio.h>
 #include <math.h>
 int main()
