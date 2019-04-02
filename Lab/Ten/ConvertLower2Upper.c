@@ -12,7 +12,7 @@ int main()
 	
 	for(i=0;str[i]!='\0';i++)
 	{
-		if(str[i]>=97&&str[i]<=122)
+		if(str[i]>=97&&str[i]<=122) //is a lower case letter
 			str[i]-=32;
 	}
 	
