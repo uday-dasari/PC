@@ -20,3 +20,9 @@ int main()
 	
 	return 0;
 }
+
+/*
+ASCII VALUES:
+A to Z: 65 to 90 (both inclusive)
+a to z: 97 to 122 (both inclusive)
+*/
