@@ -25,4 +25,6 @@ int main()
 ASCII VALUES:
 A to Z: 65 to 90 (both inclusive)
 a to z: 97 to 122 (both inclusive)
+
+To convert lower case to upper case, we subtract its ASCII value by 32
 */
