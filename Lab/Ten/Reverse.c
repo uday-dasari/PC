@@ -2,7 +2,7 @@
 
 //Change all lowercase letters to uppercase in a sentence
 #include <stdio.h>
-int length(char str[]) //finds number of proper character in the string
+int length(char str[]) //finds number of proper characters in the string
 {
 	int i=0;
 	while(str[i]!='\0')
