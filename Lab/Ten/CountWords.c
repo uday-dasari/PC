@@ -3,7 +3,7 @@
 //Count number of words in a sentence.
 #include <stdio.h>
 
-int isEmpty(char str[])
+int isEmpty(char str[]) //is the string empty?
 {
 	return (str[0]=='\0')?1:0;
 }
@@ -14,7 +14,7 @@ int main()
 	char str[100];
 	
 	printf("Enter a sentence\n");
-	scanf("%[^\n]",str);
+	scanf("%[^\n]",str); //reads a line
 	
 	if(!isEmpty(str))
 	{
