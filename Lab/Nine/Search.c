@@ -1,3 +1,8 @@
+/*
+Searching for an element in the matrix and counting the number 
+of its occurrences.
+*/
+
 // created by akashbhalotia
 #include <stdio.h>
 int main()
