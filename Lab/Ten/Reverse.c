@@ -1,6 +1,6 @@
 //created by akashbhalotia
 
-//Change all lowercase letters to uppercase in a sentence
+//Reverse a string
 #include <stdio.h>
 int length(char str[]) //finds number of proper characters in the string
 {
