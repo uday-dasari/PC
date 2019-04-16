@@ -25,7 +25,7 @@ void printArr(int a[], int N)
 }
 int main()
 {
-	int a[100],i,N,large,small;
+	int a[100],i,N;
 	
 	printf("Enter length of array\n");
 	scanf("%d",&N);
