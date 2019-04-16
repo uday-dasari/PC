@@ -15,8 +15,11 @@ void printArr(int a[], int N)
 void insert(int a[], int num, int pos, int N)
 {
 	int i;
-	for(i=N;i>pos;i--)
-		a[i]=a[i-1];
+	if(pos<N)
+	{
+		for(i=N;i>pos;i--)
+			a[i]=a[i-1];
+	}
 	
 	a[pos]=num;
 }
