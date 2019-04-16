@@ -24,4 +24,6 @@ int main()
 		rev[i]=str[len-i-1];
 	
 	printf("Reversed:\n%s\n",rev);
+	
+	return 0;
 }
