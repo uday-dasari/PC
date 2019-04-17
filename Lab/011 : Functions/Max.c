@@ -1,3 +1,8 @@
+/*
+	Find maximum of a given set of numbers using recursion.
+	(Use a function Max and return the result to the main function.)
+*/
+
 //created by akashbhalotia
 #include <stdio.h>
 int max(int a, int b)
