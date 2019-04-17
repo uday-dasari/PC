@@ -1,3 +1,8 @@
+/*
+	Check whether the given number is prime or not. Using this function, 
+	generate first n prime numbers.
+*/
+
 //created by akashbhalotia
 #include <stdio.h>
 int isPrime(int a)
