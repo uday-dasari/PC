@@ -1,3 +1,7 @@
+/*
+	Find GCD of two numbers recursively
+*/
+
 //created by akashbhalotia
 #include <stdio.h>
 
