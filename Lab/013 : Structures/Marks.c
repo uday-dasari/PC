@@ -11,34 +11,11 @@ struct Student
 {
 	char name[100];
 	int roll,marks[3],total;
-} details[100];
+} details[100], tmp;
 
-void swap(int *a, int *b)
-{
-	int tmp=*a;
-	*a=*b;
-	*b=tmp;
-}
-
-void swapStrings(char str1[], char str2[])
-{
-	char tmp[100],i;
-	
-	for(i=0;str1[i]!='\0';i++)
-		tmp[i]=str1[i];
-	tmp[i]='\0';
-	
-	for(i=0;str2[i]!='\0';i++)
-		str1[i]=str2[i];
-	str1[i]='\0';
-	
-	for(i=0;tmp[i]!='\0';i++)
-		str2[i]=tmp[i];
-	str2[i]='\0';
-}
 void sort(int N)
 {
-	int i,j,k,tmp;
+	int i,j,k;
 	
 	//Bubble Sort
 	for(i=0;i<N;i++)
@@ -47,13 +24,9 @@ void sort(int N)
 		{
 			if(details[j].total<details[j+1].total)
 			{
-				swap(&details[j].total,&details[j+1].total);
-				swap(&details[j].roll,&details[j+1].roll);
-				
-				for(k=0;k<3;k++)
-					swap(&details[j].marks[k],&details[j+1].marks[k]);
-				
-				swapStrings(details[j].name,details[j+1].name);
+				tmp=details[j];
+				details[j]=details[j+1];
+				details[j+1]=tmp;
 			}
 		}
 	}
