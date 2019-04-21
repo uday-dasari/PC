@@ -1,12 +1,12 @@
 **1) Another name for functions?**
 - Methods.
 
-**2) Types of functions?**
- 	1. Library or in-built functions.
+**2) Types of functions?**  
+  	1. Library or in-built functions.  
 	2. User-defined functions.
 
-**3) Examples of both types:**
-	1. In-built functions: *printf*, *scanf*, *sqrt*, *pow*.
+**3) Examples of both types:**  
+ 	1. In-built functions: *printf*, *scanf*, *sqrt*, *pow*.  
 	2. User-defined: *main* 
 
 **4) In-built functions:**
