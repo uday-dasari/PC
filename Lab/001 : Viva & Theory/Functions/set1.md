@@ -2,7 +2,7 @@
 - Methods.
 
 **2) Types of functions?**
-- 	1. Library or in-built functions.
+ 	1. Library or in-built functions.
 	2. User-defined functions.
 
 **3) Examples of both types:**
